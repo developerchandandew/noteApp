@@ -1,0 +1,44 @@
+.sidebar{
+    width: 15%;
+    height:100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidebar h1{
+    
+
+    width: 0rem;
+    height: 5rem;
+    font-size: 4rem;
+    /* background-color: #ff00a3; */
+    border-radius: 50%;
+    margin: 30px 35%;
+    cursor: pointer;
+}
+.sidebar h1 i{
+   color: white;
+
+}
+
+.color-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* background-color: #ff00a3; */
+    height:0;
+    transition: 300ms;
+}
+.color-list-active{
+    height: 350px;
+}
+.list-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    list-style: none;
+    cursor: pointer;
+}
+
